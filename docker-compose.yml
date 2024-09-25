@@ -1,0 +1,7 @@
+services:
+  delta:
+    image: aldakit/delta:latest
+    ports:
+      - "8000:8000"
+    pull_policy: always
+    container_name: delta
